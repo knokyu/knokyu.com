@@ -177,3 +177,26 @@ footer{
   text-align: center;
 
 }
+
+@media screen and (min-width: 800px) {
+  #sec1 {
+    display: inline-block;
+  }
+  #sec2 {
+    display: inline-block;
+  }
+  #sec3 {
+    display: inline-block;
+  }
+}
+    @media screen and (max-width: 600px) {
+          #sec1 {
+        display: inline-block;
+      }
+      #sec2 {
+        display: inline-block;
+      }
+      #sec3 {
+        display: inline-block;
+      }
+    }
