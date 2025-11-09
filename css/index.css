@@ -178,19 +178,27 @@ footer{
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
+  nav ul{
+    float: left;
+  }
+  main{
+    width: 100vw;
+  }
     #sec1 {
       display: inline-block;
+      height: auto;
     }
       .left-pane1{
-        width: 100vw;
+        width: 100%;
       }
       .right-pane1{
-        width: 100vw;
+        width: 100%;
       }
     #sec2 {
       display: inline-block;
       width: 100vw;
+      height: auto;
     }
         .left-pane2{
         width: 100vw;
@@ -199,8 +207,8 @@ footer{
         width: 100vw;
       }
     #sec3 {
+      height: auto;
       display: inline-block;
       width: 100vw;
     }
 }
-
