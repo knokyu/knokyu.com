@@ -1,0 +1,179 @@
+/* navigation */
+
+nav{
+  overflow: hidden;
+  background-color: #7c81de;
+}
+
+/* nav img{
+  float: left;
+  padding: 0;
+  max-width: auto;
+  height: 3vh;
+} */
+
+nav ul{
+  float: right;
+  margin-right: 11vw;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  color: #fff;
+  margin-left: 1vw;
+  text-align: left;
+  font-size: 2vh;
+  font-family: "RockoUltraFLF Bold";
+}
+
+/* the meat and potatoes */
+
+body{
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  background-color: #262626;
+  flex-grow: 1;
+}
+
+/* header{
+  background-color: #6166c2;
+  width: 100vw;
+  height: 20vh;
+} */
+
+/* header img{
+  max-width: 100%;
+  height: auto;
+} */
+
+/* section 1 */
+
+#sec1{
+  color: #fff;
+  font-family: "RockoFLF";
+  height: 40vh;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.left-pane1{
+  float: left;
+  width: 40vw;
+}
+
+.left-pane1 img{
+  height: 10vh;
+}
+
+.left-pane1 img, p{
+  margin: 1vh;
+}
+
+.left-pane1 p{
+  font-size: 1.5vh;
+}
+
+.right-pane1{
+  float: left;
+  width: 40vw;
+
+}
+
+.right-pane1 li{
+  width: 100%;
+  display: inline-block;
+  margin: 1vh;
+}
+
+.right-pane1 li a{
+  color: #fff;
+  font-size: 2vh;
+}
+
+/* section 2 */
+
+#sec2{
+  color: #fff;
+  font-family: "RockoFLF";
+  height: 25vh;
+  display: flex;
+}
+
+.left-pane2 p{
+  text-align: center;
+  font-size: 3vh;
+}
+
+.left-pane2{
+  background-color: #444;
+  float: left;
+  width: 40vw;
+}
+
+.right-pane2{
+  background-color: #555;
+  float: left;
+  width: 40vw;
+}
+
+.right-pane2 p{
+  text-align: center;
+  font-size: 3vh;
+}
+
+.right-pane2 table{
+  margin: 0 auto;
+  border: 5px solid;
+  width: 80%;
+}
+
+.right-pane2 table tr{
+  text-align: center;
+}
+
+.right-pane2 table tr td{
+  padding: 8px;
+  font-size: 2vh;
+}
+
+/* section 3 */
+
+#sec3{
+  color: #fff;
+  font-family: "RockoFLF";
+  height: 30vh;
+
+  /* background-color: #555; */
+  width: 100%;
+}
+
+h2{
+  width: 100%;
+  text-align: center;
+  padding: 1vw 1vh;
+}
+
+.redbubble {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* footer */
+
+footer{
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+
+}
