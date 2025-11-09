@@ -179,6 +179,9 @@ footer{
 }
 
 @media screen and (max-width: 1000px) {
+  nav{
+    display: none;
+  }
   nav ul{
     float: left;
   }
@@ -196,7 +199,7 @@ footer{
         width: 100%;
       }
     #sec2 {
-      display: inline-block;
+      display: none;
       width: 100vw;
       height: auto;
     }
@@ -208,7 +211,8 @@ footer{
       }
     #sec3 {
       height: auto;
-      display: inline-block;
+      display: none;
       width: 100vw;
     }
 }
+
