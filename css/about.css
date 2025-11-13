@@ -1,0 +1,46 @@
+#sec1{
+  color: #fff;
+  font-family: "RockoFLF";
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.left-pane1{
+  margin: 0 auto;
+  width: 40vw;
+}
+
+.left-pane1 img{
+  height: 10vh;
+}
+
+.left-pane1 img, p{
+  margin: 1vh;
+}
+
+.left-pane1 p{
+  font-size: 1.5vh;
+}
+
+@media screen and (max-width: 1000px) {
+  nav{
+    /* display: none; */
+  }
+  nav ul{
+    float: left;
+  }
+  nav ul a{
+  }
+  main{
+    width: 100vw;
+  }
+    #sec1 {
+      display: inline-block;
+      height: auto;
+    }
+      .left-pane1{
+        width: 100%;
+      }
+    }

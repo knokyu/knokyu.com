@@ -1,0 +1,22 @@
+/* section 3 */
+
+#sec3{
+  color: #fff;
+  font-family: "RockoFLF";
+  height: 30vh;
+
+  /* background-color: #555; */
+  width: 100%;
+}
+
+h2{
+  width: 100%;
+  text-align: center;
+  padding: 1vw 1vh;
+}
+
+.redbubble {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
