@@ -54,6 +54,7 @@ main{
 /* navigation */
 
 nav{
+  z-index: 100;
   overflow: hidden;
   background-color: #7c81de;
 }

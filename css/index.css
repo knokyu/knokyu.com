@@ -13,7 +13,7 @@
 
 #sec1{
   color: #fff;
-  font-family: "RockoFLF";
+  font-family: "RockoFLF", Arial, Helvetica, sans-serif;
   height: 40vh;
 
   display: flex;
@@ -41,7 +41,7 @@
 .right-pane1{
   float: left;
   width: 40vw;
-
+  z-index: 100;
 }
 
 .right-pane1 li{
@@ -59,7 +59,7 @@
 
 #sec2{
   color: #fff;
-  font-family: "RockoFLF";
+  font-family: "RockoFLF", Arial, Helvetica, sans-serif;
   height: 25vh;
   display: flex;
 }
@@ -105,7 +105,7 @@
 
 #sec3{
   color: #fff;
-  font-family: "RockoFLF";
+  font-family: "RockoFLF", Arial, Helvetica, sans-serif;
   height: 30vh;
 
   /* background-color: #555; */
@@ -133,31 +133,24 @@ h2{
   }
   main{
     width: 100vw;
+    overflow: hidden;
+    background-image: url("../res/tsumi.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
   }
     #sec1 {
-      display: inline-block;
-      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      height: 100vh;
     }
       .left-pane1{
         width: 100%;
       }
       .right-pane1{
+        z-index: 100;
         width: 100%;
       }
-    #sec2 {
-      display: none;
-      width: 100vw;
-      height: auto;
-    }
-        .left-pane2{
-        width: 100vw;
-      }
-      .right-pane2{
-        width: 100vw;
-      }
-    #sec3 {
-      height: auto;
-      display: none;
-      width: 100vw;
-    }
 }
