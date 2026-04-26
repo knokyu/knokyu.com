@@ -45,14 +45,21 @@
 }
 
 .right-pane1 li{
-  width: 100%;
-  display: inline-block;
-  margin: 1vh;
+  display: block;
+  padding: 10px;
 }
 
 .right-pane1 li a{
   color: #fff;
   font-size: 2vh;
+  padding: 0 10px;
+  background: #7c81de56;
+  border: solid 5px #7c81de;
+  border-radius: 50px;
+}
+
+.right-pane1 li a:hover{
+  background-color: #7c81de;
 }
 
 /* section 2 */
