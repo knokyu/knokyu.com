@@ -125,12 +125,20 @@
 /* section 3 */
 
 #sec3{
+  margin-top: 0;
   color: #fff;
   font-family: "RockoFLF", Arial, Helvetica, sans-serif;
-  height: 30vh;
+  height: auto;
 
-  /* background-color: #555; */
+  background-color: #555;
+  background-image: url(../res/artbg.jpg);
+  background-repeat: repeat;
   width: 100%;
+}
+
+#sec3 img{
+width: 50%;
+float: left;
 }
 
 h2{

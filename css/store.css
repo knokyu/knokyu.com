@@ -3,7 +3,7 @@
 #sec3{
   color: #fff;
   font-family: "RockoFLF";
-  height: 30vh;
+  height: 100vh;
 
   /* background-color: #555; */
   width: 100%;
@@ -16,6 +16,7 @@ h2{
 }
 
 .redbubble {
+  margin-top: 60px;
   width: 100%;
   display: flex;
   justify-content: center;

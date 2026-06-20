@@ -41,7 +41,7 @@ body{
   background-color: #333;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  max-height: 100vh;
 }
 
 main{
@@ -49,14 +49,19 @@ main{
   margin: 0 auto;
   background-color: #262626;
   flex-grow: 1;
+  max-height: min-content;
 }
 
 /* navigation */
 
 nav{
-  z-index: 100;
   overflow: hidden;
   background-color: #7c81de;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 nav ul li{
@@ -77,7 +82,10 @@ footer{
   color: #fff;
   background-color: #000;
   text-align: center;
-
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 ::-webkit-scrollbar {
